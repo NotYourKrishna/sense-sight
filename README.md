@@ -1,11 +1,9 @@
-# sense-sight
 # Sense-Sight: Real-Time Object Detection with Audio Feedback
 
 ## Overview
 
 Sense-Sight is an AI-based system designed to assist visually impaired users by detecting objects in real-time and providing audio feedback.
 
----
 
 ## Features
 
@@ -14,14 +12,12 @@ Sense-Sight is an AI-based system designed to assist visually impaired users by 
 * Customizable object detection list
 * Works offline
 
----
 
 ## Requirements
 
 * Python 3.x
 * Webcam
 
----
 
 ## Setup Instructions
 
@@ -30,13 +26,9 @@ Sense-Sight is an AI-based system designed to assist visually impaired users by 
 git clone https://github.com/NotYourKrishna/sense-sight
 cd sense-sight
 
----
-
 ### 2. Install Dependencies
 
 pip install -r requirements.txt
-
----
 
 ### 3. Download YOLO Weights
 
@@ -44,8 +36,6 @@ Download yolov3.weights from:
 https://pjreddie.com/darknet/yolo/
 
 Place it in the project folder.
-
----
 
 ### 4. Configure Target Objects
 
@@ -57,15 +47,12 @@ person
 dog
 laptop
 
----
-
 ### 5. Run the Project
 
 python main.py
 
 Press 'q' to exit.
 
----
 
 ## How It Works
 
@@ -73,7 +60,7 @@ Press 'q' to exit.
 * YOLO detects objects
 * If object is in target list → audio alert
 
----
+
 
 ## Notes
 
