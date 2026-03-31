@@ -1,0 +1,5 @@
+person
+dog
+laptop
+chair
+bottle
